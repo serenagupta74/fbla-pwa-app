@@ -27,10 +27,23 @@
     background-color: #5a86c3;
     color: white;
     /* Logo inside the navbar */
+/* Logo inside the navbar */
 .topnav a.logo img {
-    height: 40px;         /* adjust size */
-    vertical-align: middle; /* aligns with links */
-    padding: 5px 10px;    /* spacing around logo */
+    height: 40px;          /* sets the logo height */
+    width: auto;            /* keeps the aspect ratio correct */
+    vertical-align: middle; /* aligns with nav links */
+    padding: 5px 10px;      /* space around the logo */
 }
+.topnav a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;          /* allows logo & text to align */
+    align-items: center;    /* vertical alignment */
+}
+
 
 }
