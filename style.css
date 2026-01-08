@@ -26,4 +26,11 @@
 .topnav a.active {
     background-color: #5a86c3;
     color: white;
+    /* Logo inside the navbar */
+.topnav a.logo img {
+    height: 40px;         /* adjust size */
+    vertical-align: middle; /* aligns with links */
+    padding: 5px 10px;    /* spacing around logo */
+}
+
 }
