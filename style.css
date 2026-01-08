@@ -14,11 +14,7 @@
     color: #FFFFFF;           /* white text */
 }
 
-/* Hover effect */
-.topnav a:hover {
-    background-color: #000000; /* black background */
-    color: #FFFFFF;             /* white text */
-}
+
 
 /* Active / clicked link */
 .topnav a:active {
