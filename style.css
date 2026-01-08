@@ -78,4 +78,18 @@
     .topnav a.logo img {
         max-height: 90%;        /* smaller logo on small screens */
     }
+    /* Hide all sections by default */
+.tabcontent {
+  display: none;
+  padding: 20px;
+  background-color: #1C2951;
+  color: white;
+}
+
+/* Active tab link styling */
+.tablink.active {
+  background-color: #5a86c3;
+  color: white;
+}
+
 }
