@@ -25,6 +25,7 @@ function setActive(clickedTab) {
 
     clickedTab.classList.add("active");
 }
+console.log("app.js is loaded");
 
 // Open default tab on page load
 document.addEventListener("DOMContentLoaded", function() {
