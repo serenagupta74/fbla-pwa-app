@@ -16,6 +16,15 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+function setActive(clickedTab) {
+    const tabs = document.getElementsByClassName("tablink");
+
+    for (let i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove("active");
+    }
+
+    clickedTab.classList.add("active");
+}
 
 // Open default tab on page load
 document.addEventListener("DOMContentLoaded", function() {
