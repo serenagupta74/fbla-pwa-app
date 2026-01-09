@@ -50,16 +50,17 @@
     color: #FFFFFF;             /* text stays white */
 }
 
-/* Active/clicked link */
-.topnav a:active {
-    background-color: #5a86c3;  /* darker blue */
-    color: #FFFFFF;
-}
 
-/* Current active page */
-.topnav a.active {
-    background-color: #5a86c3;  /* darker blue */
-    color: #FFFFFF;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #0F2BA; 
+}
+.topnav a.active{
+    background-color: #5a86c3
 }
 
 /* ============================= */
