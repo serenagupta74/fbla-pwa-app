@@ -1,4 +1,3 @@
-console.log("app.js is loaded");
 
 function setActive(clickedTab) {
     const tabs = document.getElementsByClassName("tablink");
