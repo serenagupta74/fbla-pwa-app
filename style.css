@@ -36,6 +36,8 @@
     font-size: 17px;
     display: flex;              /* flex for vertical alignment */
     align-items: center;
+    background-color: #0F2BA; 
+
 }
 
 /* Make sure unvisited/visited links are white */
@@ -52,13 +54,7 @@
 
 
 }
-.topnav a{
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: #0F2BA; 
-}
+
 .topnav a.active{
     background-color: #5a86c3
 }
@@ -84,7 +80,6 @@
   display: none;
   padding: 20px;
   background-color: #1C2951;
-  color: white;
 }
 
 /* Active tab link styling */
