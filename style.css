@@ -76,15 +76,17 @@ body {
 /* Profile page */
 .profile-header {
   color: white;
-  padding-left: 1000px;   /* moves text right */
+  padding-left: 40px;   /* small shift right */
+  margin-top: 30px;     /* moves section down from top */
+  font-weight: bold;    /* makes text bold */
 }
 
 .profile-info {
   color: white;
-  padding-left: 300px;   /* moves text right */
-  padding-top: 1000px; 
+  padding-left: 40px;   /* aligns with headers */
+  margin-top: 10px;     /* space between lines */
+  font-weight: bold;
 }
-
 /* ============================= */
 /* Mobile adjustments */
 @media (max-width: 400px) {
