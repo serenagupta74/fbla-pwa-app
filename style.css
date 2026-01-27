@@ -1,13 +1,13 @@
 /* ============================= */
 /* General page styles */
 body {
-  background-color: hotpink; /* test color – you can change later */
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif
 }
 
+
 /* ============================= */
-/* Navbar container */
+/* THIS IS FOR THE TABS AT THE TOP */
 .topnav {
   background-color: #0F52BA;   /* FBLA blue */
   overflow: hidden;
@@ -18,7 +18,7 @@ body {
 }
 
 /* ============================= */
-/* Logo link container */
+/* THIS IS ALSO TABS AT THE TOP */
 .topnav a.logo {
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ body {
 }
 
 /* ============================= */
-/* Navigation links */
+/* THIS IS ALSO TAB AT HTE TOP */
 .topnav a {
   color: #FFFFFF;
   text-align: center;
@@ -51,16 +51,12 @@ body {
   color: #FFFFFF;
 }
 
-/* Hover effect */
+/*this is so when hover over tab it turns black */
 .topnav a:hover {
   background-color: #000000;
   color: #FFFFFF;
 }
 
-/* Active tab */
-.topnav a.active {
-  background-color: #5a86c3;
-}
 
 /* ============================= */
 /* Tab content */
@@ -80,8 +76,7 @@ body {
 /* Profile page */
 .profile-header {
   color: white;
-  padding-left: 40px;   /* moves text right */
-  border: 1px solid red; /* TEMP: delete after confirming */
+  padding-left: 80px;   /* moves text right */
 }
 
 /* ============================= */
