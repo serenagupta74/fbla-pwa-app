@@ -76,13 +76,13 @@ body {
 /* Profile page */
 .profile-header {
   color: white;
-  padding-left: 3000px;   /* moves text right */
+  padding-left: 1000px;   /* moves text right */
 }
 
 .profile-info {
   color: white;
   padding-left: 300px;   /* moves text right */
-  padding-top: 4000px; 
+  padding-top: 1000px; 
 }
 
 /* ============================= */
