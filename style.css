@@ -87,5 +87,7 @@
   background-color: #5a86c3;
   color: white;
 }
-
+.profile-header {
+    margin-left: 40px;
+}
 }
