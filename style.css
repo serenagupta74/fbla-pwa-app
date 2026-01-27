@@ -1,84 +1,69 @@
 /* ============================= */
-/* Navbar container */
-body{
-    background-color: hotpink;
+/* General page styles */
+body {
+  background-color: hotpink; /* test color – you can change later */
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+/* ============================= */
+/* Navbar container */
 .topnav {
-    background-color: #0F52BA;   /* FBLA blue */
-    overflow: hidden;
-    display: flex;               /* flex layout for logo + links */
-    align-items: center;         /* vertically center contents */
-    height: 50px;                /* navbar height */
-    padding: 0 10px;             /* horizontal padding */
+  background-color: #0F52BA;   /* FBLA blue */
+  overflow: hidden;
+  display: flex;               /* flex layout for logo + links */
+  align-items: center;         /* vertically center contents */
+  height: 50px;                /* navbar height */
+  padding: 0 10px;             /* horizontal padding */
 }
 
 /* ============================= */
 /* Logo link container */
 .topnav a.logo {
-    display: flex;
-    align-items: center;
-    height: 100%;               /* match navbar height */
-    padding-right: 15px;        /* space between logo and first link */
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 15px;
 }
 
 /* Logo image */
 .topnav a.logo img {
-    max-height: 100%;           /* fits inside navbar */
-    width: auto;                /* maintain aspect ratio */
-    display: block;             /* fixes extra spacing */
+  max-height: 100%;
+  width: auto;
+  display: block;
 }
 
 /* ============================= */
 /* Navigation links */
 .topnav a {
-    float: left;
-    color: #FFFFFF;             /* white text */
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: flex;              /* flex for vertical alignment */
-    align-items: center;
-    background-color: #0F2BA; 
-
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
 }
 
-/* Make sure unvisited/visited links are white */
+/* Make sure unvisited/visited links stay white */
 .topnav a:link,
 .topnav a:visited {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 /* Hover effect */
 .topnav a:hover {
-    background-color: #000000;  /* black background on hover */
-    color: #FFFFFF;             /* text stays white */
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
-
-}
-
-.topnav a.active{
-    background-color: #5a86c3
+/* Active tab */
+.topnav a.active {
+  background-color: #5a86c3;
 }
 
 /* ============================= */
-/* Mobile adjustments */
-@media (max-width: 400px) {
-    .topnav {
-        height: 45px;           /* smaller navbar on small screens */
-        padding: 0 5px;
-    }
-
-    .topnav a {
-        font-size: 14px;        /* smaller text */
-        padding: 10px 8px;
-    }
-
-    .topnav a.logo img {
-        max-height: 90%;        /* smaller logo on small screens */
-    }
-    /* Hide all sections by default */
+/* Tab content */
 .tabcontent {
   display: none;
   padding: 20px;
@@ -90,9 +75,29 @@ body{
   background-color: #5a86c3;
   color: white;
 }
+
+/* ============================= */
+/* Profile page */
 .profile-header {
   color: white;
-  padding-left: 40px;
-  border: 1px solid red; /* temporary */
+  padding-left: 40px;   /* moves text right */
+  border: 1px solid red; /* TEMP: delete after confirming */
 }
+
+/* ============================= */
+/* Mobile adjustments */
+@media (max-width: 400px) {
+  .topnav {
+    height: 45px;
+    padding: 0 5px;
+  }
+
+  .topnav a {
+    font-size: 14px;
+    padding: 10px 8px;
+  }
+
+  .topnav a.logo img {
+    max-height: 90%;
+  }
 }
