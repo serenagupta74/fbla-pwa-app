@@ -79,6 +79,12 @@ body {
   padding-left: 3000px;   /* moves text right */
 }
 
+.profile-info {
+  color: white;
+  padding-left: 300px;   /* moves text right */
+  padding-top: 4000px; 
+}
+
 /* ============================= */
 /* Mobile adjustments */
 @media (max-width: 400px) {
