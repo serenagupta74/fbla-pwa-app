@@ -1,5 +1,8 @@
 /* ============================= */
 /* Navbar container */
+body{
+    background-color: hotpink;
+}
 .topnav {
     background-color: #0F52BA;   /* FBLA blue */
     overflow: hidden;
