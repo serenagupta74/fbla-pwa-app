@@ -102,4 +102,8 @@ body {
   .topnav a.logo img {
     max-height: 90%;
   }
+.pfp {
+  width: 150px;
+  height: auto;
+  padding-left: 40px;
 }
